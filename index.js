@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a tweet about cryptocurrency using edgy jokes and memes, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate a tweet about cryptocurrency using edgy jokes and memes, it should not be vague and should be unique; under 280 characters and should be plain text, you can be racist, sexist and really edgy";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
